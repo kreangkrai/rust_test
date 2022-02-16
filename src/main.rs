@@ -6,7 +6,9 @@ let data = Data::new(5.1, 4.5);
 let add = data.add();
 let sub = data.sub();
 
-println!("Add : {} , Sub : {}",add,sub);
+println!("{:?}",data);
+println!("add : {}",add);
+println!("sub : {}",sub);
 
 let rec1 = Rectangle::new(2.0,3.2);
 let shape = rec1.get_shape();
